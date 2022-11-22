@@ -29,7 +29,7 @@ const Exercico01 = () => {
     .reduce((a, b) => a + b);
 
   return (
-    <div>
+    <div className="ex01">
       <h1>Nome: {dados.cliente}</h1>
       <h2>Idade: {dados.idade}</h2>
       <h2>
