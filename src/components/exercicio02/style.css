@@ -1,0 +1,11 @@
+.ex02{
+  background-color: #444;
+  color: white;
+  width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.ex02 li {
+  margin-bottom: 10px;
+}
