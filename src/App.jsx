@@ -1,11 +1,22 @@
-import Exercico01 from './components/exercicio01';
-import Exercico02 from './components/exercicio02';
+// import Exercico01 from './components/exercicio01';
+// import Exercico02 from './components/exercicio02';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Index } from './components/exercicio03/Index';
+import Home from './pages/home';
 
 const App = () => {
   return (
     <div>
-      <Exercico01 />
-      <Exercico02 />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} exact />
+          <Route path="/product" element={<Index />} />
+        </Routes>
+      </BrowserRouter>
+      {/* <Exercico01 />
+      <Exercico02 /> */}
+      {/* <Home /> */}
     </div>
   );
 };
