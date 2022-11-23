@@ -13,7 +13,6 @@ const Index = () => {
     setDados(data);
     setLoading(false);
   }
-
   return (
     <div>
       <h1>Produtos</h1>
