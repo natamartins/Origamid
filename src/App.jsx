@@ -4,7 +4,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import { Index } from './components/exercicio03/Index';
 // import Index04 from './components/exercico04/Index';
-import Index05 from './components/exercicio05/Index';
+// import Index05 from './components/exercicio05/Index';
+import Index06 from './components/exercicio06/Index';
 // import Home from './pages/home';
 
 const App = () => {
@@ -12,7 +13,8 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index05 />} exact />
+          <Route path="/" element={<Index06 />} exact />
+          {/* <Route path="/" element={<Index05 />} exact /> */}
           {/* <Route path="/" element={<Index04 />} exact /> */}
           {/* <Route path="/" element={<Home />} exact /> */}
           {/* <Route path="/product" element={<Index />} /> */}
