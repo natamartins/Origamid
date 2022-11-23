@@ -3,14 +3,16 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Index } from './components/exercicio03/Index';
-import Home from './pages/home';
+import Index04 from './components/exercico04/Index';
+// import Home from './pages/home';
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route path="/" element={<Index04 />} exact />
+          {/* <Route path="/" element={<Home />} exact /> */}
           <Route path="/product" element={<Index />} />
         </Routes>
       </BrowserRouter>
